@@ -56,7 +56,7 @@ npm run release-zip
 printf "\n%s=======================================================%s" $magenta $end
 printf "\n%sCompile hosted documentation...%s" $magenta $end
 printf "\n%s=======================================================\n%s" $magenta $end
-npm run docs-github
+npm run docs-production
 
 # Copy the contents of the built docs site over to `bs-docs` repo
 printf "\n%s=======================================================%s" $magenta $end
